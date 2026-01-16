@@ -1,0 +1,134 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Page Background ===== */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0b33e7, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Card Container ===== */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Headings ===== */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ===== Form Labels ===== */
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ===== Inputs ===== */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+/* ===== Button ===== */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* ===== Links ===== */
+p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Dashboard ===== */
+.dashboard {
+    text-align: center;
+}
+
+.dashboard p {
+    margin: 15px 0;
+    color: #444;
+}
+
+/* ===== Logout Button ===== */
+.logout {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #e53e3e;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.logout:hover {
+    background: #c53030;
+}
+
+/* ===== Flash Messages ===== */
+.flash {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.flash.info {
+    background: #edf2ff;
+    color: #2c5282;
+    border: 1px solid #90cdf4;
+}
+
+.flash.error {
+    background: #fff5f5;
+    color: #742a2a;
+    border: 1px solid #feb2b2;
+}
